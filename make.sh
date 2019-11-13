@@ -1,0 +1,1 @@
+g++ ./base/Base.cpp -fPIC -shared -o ./release/Base.so  -std=c++11 -O3 -march=native
