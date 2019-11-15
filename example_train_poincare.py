@@ -9,7 +9,7 @@ con = config.Config()
 #Input training files from benchmarks/FB15K237/ folder.
 con.set_in_path("./benchmarks/FB15K237/") # WN18RR
 con.set_gpu(True)
-# con.set_int_type('int64')
+con.set_int_type('int64')
 #True: Input test files from the same folder.
 con.set_test_link_prediction(True)
 con.set_log_on(1)
