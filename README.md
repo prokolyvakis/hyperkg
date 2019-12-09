@@ -12,7 +12,7 @@ Every source code file written exclusively by the author of this repo is license
 # Instructions for running:
 * Prerequisites : 
     * Python, C, C++.
-    * Python Libraries: NumPy, SciPy, pytorch, pickle.
+    * Python Libraries: NumPy, SciPy, pytorch (with CUDA support).
     
 * Run the code:
     1. Compile the C, C++ code using: `sh make.sh `
